@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BACKUP_DIR="${BACKUP_DIR:-/backup}"     # куда класть архив (по умолчанию /backup)
+BACKUP_DIR="${BACKUP_DIR:-/backup}"     
 
 fail() {
     echo "ОШИБКА: $1" >&2
